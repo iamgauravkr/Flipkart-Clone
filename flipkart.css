@@ -1,0 +1,275 @@
+*{
+    margin:0;
+    border: border-box ;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+  height: 40px;
+  width: 100px;
+}
+.logo{
+    background-image: url("Images/flipkart\ logo.jpg");
+    background-size: cover;
+    height: 32px;
+    width: 100%;
+}
+.search-box{
+    /* background-color: yellow; */
+    display:flex;
+    justify-content: space-evenly;
+    height: 36px;
+    width:400px;
+    border-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color: white;
+    color: #2874f0;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.login-input{
+    height: 30px;
+    width:120px;
+    border-radius: 4px;
+
+    font-size: 1rem;
+    
+}
+.search-select{
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    width: 60px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.cart{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 60px;
+}
+
+
+
+
+.panel{
+    background-color: white;
+    height: 115px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-image{
+    height: 65px;
+    width: 65px;
+    background-size: cover;
+    /* background-color: aqua; */
+    
+}
+
+
+.box-content{
+    height: 100px;
+    width: 90px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.shoping-panel{
+ height: 290px;
+ width: 100%;
+
+ display: flex;
+ align-items: center;
+justify-content: space-evenly;
+background-size: cover;
+}
+
+
+.hbox{
+height: 250px;
+width: 500px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+ 
+.best-mobile-box{
+    height: 350px;
+    width: 100%;
+    border: 0.5px solid #f3efef;
+}
+.text{
+    padding-top: 0.5rem;
+  font-size: 2rem;
+
+}
+
+.mbcontainer{
+    margin-top: 2rem;
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.boxcon{
+    border: 0.5px solid #e0e0e0;
+    text-align: center;
+}
+.mboxcontent{
+    height: 200px;
+    width: 180px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: stretch;
+    justify-content:space-evenly ;
+}
+.mbox{
+   height: 200px;
+   width: 165px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+ .panel-four{
+    margin-top: 2rem;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background-size: cover;
+   }
+
+   .panel-five{
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background-size: cover;
+   }
+
+
+   .featured-brand-box{
+    height: 300px;
+    width: 100%;
+    border: 0.5px solid #f3efef;
+   }
+   .panel-six{
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background-size: cover;
+   }
+   
+   .panel-seven{
+    margin-top: 1rem;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   background-size: cover;
+   }
+
+
+   footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd ;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo{
+    background-image: url("Images/flipkart\ logo.jpg");
+    background-size: cover;
+    height: 32px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #0f1111; 
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.pages{
+   
+   padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+    
+}
